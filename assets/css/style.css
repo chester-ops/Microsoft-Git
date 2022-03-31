@@ -1,0 +1,1737 @@
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+.row > * {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-top: var(--bs-gutter-y);
+}
+
+.col {
+  flex: 1 0 0%;
+}
+
+.row-cols-auto > * {
+  flex: 0 0 auto;
+  width: auto;
+}
+
+.row-cols-1 > * {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.row-cols-2 > * {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+.row-cols-3 > * {
+  flex: 0 0 auto;
+  width: 33.3333333333%;
+}
+
+.row-cols-4 > * {
+  flex: 0 0 auto;
+  width: 25%;
+}
+
+.row-cols-5 > * {
+  flex: 0 0 auto;
+  width: 20%;
+}
+
+.row-cols-6 > * {
+  flex: 0 0 auto;
+  width: 16.6666666667%;
+}
+
+.col-auto {
+  flex: 0 0 auto;
+  width: auto;
+}
+
+.col-1 {
+  flex: 0 0 auto;
+  width: 8.33333333%;
+}
+
+.col-2 {
+  flex: 0 0 auto;
+  width: 16.66666667%;
+}
+
+.col-3 {
+  flex: 0 0 auto;
+  width: 25%;
+}
+
+.col-4 {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+}
+
+.col-5 {
+  flex: 0 0 auto;
+  width: 41.66666667%;
+}
+
+.col-6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+.col-7 {
+  flex: 0 0 auto;
+  width: 58.33333333%;
+}
+
+.col-8 {
+  flex: 0 0 auto;
+  width: 66.66666667%;
+}
+
+.col-9 {
+  flex: 0 0 auto;
+  width: 75%;
+}
+
+.col-10 {
+  flex: 0 0 auto;
+  width: 83.33333333%;
+}
+
+.col-11 {
+  flex: 0 0 auto;
+  width: 91.66666667%;
+}
+
+.col-12 {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .col-sm {
+    flex: 1 0 0%;
+  }
+
+  .row-cols-sm-auto > * {
+    flex: 0 0 auto;
+    width: auto;
+  }
+
+  .row-cols-sm-1 > * {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+  .row-cols-sm-2 > * {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .row-cols-sm-3 > * {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+  }
+
+  .row-cols-sm-4 > * {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+
+  .row-cols-sm-5 > * {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+
+  .row-cols-sm-6 > * {
+    flex: 0 0 auto;
+    width: 16.6666666667%;
+  }
+
+  .col-sm-auto {
+    flex: 0 0 auto;
+    width: auto;
+  }
+
+  .col-sm-1 {
+    flex: 0 0 auto;
+    width: 8.33333333%;
+  }
+
+  .col-sm-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+  }
+
+  .col-sm-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+
+  .col-sm-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+
+  .col-sm-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+  }
+
+  .col-sm-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .col-sm-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+  }
+
+  .col-sm-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+  }
+
+  .col-sm-9 {
+    flex: 0 0 auto;
+    width: 75%;
+  }
+
+  .col-sm-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+  }
+
+  .col-sm-11 {
+    flex: 0 0 auto;
+    width: 91.66666667%;
+  }
+
+  .col-sm-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+}
+@media (min-width: 768px) {
+  .col-md {
+    flex: 1 0 0%;
+  }
+
+  .row-cols-md-auto > * {
+    flex: 0 0 auto;
+    width: auto;
+  }
+
+  .row-cols-md-1 > * {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+  .row-cols-md-2 > * {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .row-cols-md-3 > * {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+  }
+
+  .row-cols-md-4 > * {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+
+  .row-cols-md-5 > * {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+
+  .row-cols-md-6 > * {
+    flex: 0 0 auto;
+    width: 16.6666666667%;
+  }
+
+  .col-md-auto {
+    flex: 0 0 auto;
+    width: auto;
+  }
+
+  .col-md-1 {
+    flex: 0 0 auto;
+    width: 8.33333333%;
+  }
+
+  .col-md-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+  }
+
+  .col-md-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+
+  .col-md-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+
+  .col-md-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+  }
+
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .col-md-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+  }
+
+  .col-md-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+  }
+
+  .col-md-9 {
+    flex: 0 0 auto;
+    width: 75%;
+  }
+
+  .col-md-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+  }
+
+  .col-md-11 {
+    flex: 0 0 auto;
+    width: 91.66666667%;
+  }
+
+  .col-md-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+}
+@media (min-width: 992px) {
+  .col-lg {
+    flex: 1 0 0%;
+  }
+
+  .row-cols-lg-auto > * {
+    flex: 0 0 auto;
+    width: auto;
+  }
+
+  .row-cols-lg-1 > * {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+  .row-cols-lg-2 > * {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .row-cols-lg-3 > * {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+  }
+
+  .row-cols-lg-4 > * {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+
+  .row-cols-lg-5 > * {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+
+  .row-cols-lg-6 > * {
+    flex: 0 0 auto;
+    width: 16.6666666667%;
+  }
+
+  .col-lg-auto {
+    flex: 0 0 auto;
+    width: auto;
+  }
+
+  .col-lg-1 {
+    flex: 0 0 auto;
+    width: 8.33333333%;
+  }
+
+  .col-lg-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+  }
+
+  .col-lg-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+
+  .col-lg-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+
+  .col-lg-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+  }
+
+  .col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .col-lg-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+  }
+
+  .col-lg-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+  }
+
+  .col-lg-9 {
+    flex: 0 0 auto;
+    width: 75%;
+  }
+
+  .col-lg-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+  }
+
+  .col-lg-11 {
+    flex: 0 0 auto;
+    width: 91.66666667%;
+  }
+
+  .col-lg-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .col-xl {
+    flex: 1 0 0%;
+  }
+
+  .row-cols-xl-auto > * {
+    flex: 0 0 auto;
+    width: auto;
+  }
+
+  .row-cols-xl-1 > * {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+  .row-cols-xl-2 > * {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .row-cols-xl-3 > * {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+  }
+
+  .row-cols-xl-4 > * {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+
+  .row-cols-xl-5 > * {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+
+  .row-cols-xl-6 > * {
+    flex: 0 0 auto;
+    width: 16.6666666667%;
+  }
+
+  .col-xl-auto {
+    flex: 0 0 auto;
+    width: auto;
+  }
+
+  .col-xl-1 {
+    flex: 0 0 auto;
+    width: 8.33333333%;
+  }
+
+  .col-xl-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+  }
+
+  .col-xl-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+
+  .col-xl-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+
+  .col-xl-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+  }
+
+  .col-xl-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .col-xl-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+  }
+
+  .col-xl-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+  }
+
+  .col-xl-9 {
+    flex: 0 0 auto;
+    width: 75%;
+  }
+
+  .col-xl-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+  }
+
+  .col-xl-11 {
+    flex: 0 0 auto;
+    width: 91.66666667%;
+  }
+
+  .col-xl-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+}
+@media (min-width: 1400px) {
+  .col-xxl {
+    flex: 1 0 0%;
+  }
+
+  .row-cols-xxl-auto > * {
+    flex: 0 0 auto;
+    width: auto;
+  }
+
+  .row-cols-xxl-1 > * {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+  .row-cols-xxl-2 > * {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .row-cols-xxl-3 > * {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+  }
+
+  .row-cols-xxl-4 > * {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+
+  .row-cols-xxl-5 > * {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+
+  .row-cols-xxl-6 > * {
+    flex: 0 0 auto;
+    width: 16.6666666667%;
+  }
+
+  .col-xxl-1 {
+    flex: 0 0 auto;
+    width: 8.33333333%;
+  }
+
+  .col-xxl-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+  }
+
+  .col-xxl-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+
+  .col-xxl-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+
+  .col-xxl-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container-sm, .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container-md, .container-sm, .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container-lg, .container-md, .container-sm, .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1320px;
+  }
+}
+
+
+
+.d-inline {
+  display: inline !important;
+}
+
+.d-inline-block {
+  display: inline-block !important;
+}
+
+.d-block {
+  display: block !important;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+
+.position-relative {
+  position: relative !important;
+}
+
+.position-absolute {
+  position: absolute !important;
+}
+
+.justify-content-center {
+  justify-content: center !important;
+}
+
+.justify-content-between {
+  justify-content: space-between !important;
+}
+
+.justify-content-around {
+  justify-content: space-around !important;
+}
+.align-items-center {
+  align-items: center !important;
+}
+
+.btn-default {
+  font-size: 15px;
+  font-weight: 600;
+  border: 2px solid transparent;
+  outline: 1px solid transparent;
+  outline-offset: -3px;
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+.btn {
+  padding: 8px 34px 10px 20px;
+}
+.btn:hover span, .btn:focus span, .btn:active span {
+  transform: translateX(-4px);
+}
+.btn:hover span::after, .btn:focus span::after, .btn:active span::after {
+  display: block;
+}
+.btn:hover svg, .btn:focus svg, .btn:active svg {
+  right: 10px;
+}
+.btn span {
+  position: relative;
+  transition: transform 0.2s ease-in-out;
+}
+.btn span::after {
+  position: absolute;
+  top: 100%;
+  height: 2px;
+  width: 100%;
+  content: "";
+  display: none;
+}
+.btn svg {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: right 0.2s ease-in-out;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #000;
+}
+.btn-primary span::after {
+  background-color: #fff;
+}
+.btn-primary:focus, .btn-primary:active {
+  outline: 1px solid rgba(255, 255, 255, 0.7);
+  border: 2px solid #000;
+  background-color: #1a1a1a;
+}
+.btn-transparent span::after {
+  background-color: #262626;
+}
+.btn-transparent:focus, .btn-transparent:active {
+  outline: 1px solid rgba(255, 255, 255, 0.7);
+  border: 2px solid #000;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.btn-secondary {
+  display: inline-block;
+  color: #0067b8;
+  padding: 10px 22px 10px 0;
+}
+.btn-secondary svg {
+  position: absolute;
+  top: 50%;
+  right: 4px;
+  transform: translateY(-50%);
+  transition: right 0.4s;
+}
+.btn-secondary:hover svg, .btn-secondary:active svg, .btn-secondary:focus svg {
+  right: 0;
+}
+.btn-secondary:hover span::after, .btn-secondary:active span::after, .btn-secondary:focus span::after {
+  display: block;
+}
+.btn-secondary:active, .btn-secondary:focus {
+  color: #005da6;
+  background: rgba(0, 103, 184, 0.1);
+  border: 2px solid #000;
+  outline: 1px solid rgba(255, 255, 255, 0.6);
+}
+.btn-secondary:active span::after, .btn-secondary:focus span::after {
+  background-color: #005da6;
+}
+.btn-secondary span {
+  position: relative;
+}
+.btn-secondary span::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #0067b8;
+  left: 0;
+  top: 100%;
+  display: block;
+  display: none;
+  position: absolute;
+}
+
+.microsoft-header {
+  background-color: #fff;
+  font-size: 0.8125rem;
+  /* SEARCH FORM */
+  /**
+  * ----------------------------------------
+  * animation fade-in
+  * ----------------------------------------
+  */
+}
+@media (max-width: 991.98px) {
+  .microsoft-header .lg-sr {
+    display: none !important;
+  }
+}
+.microsoft-header a {
+  color: #262626;
+}
+.microsoft-header a.microsoft-header__link {
+  position: relative;
+  border: 1px solid transparent;
+}
+.microsoft-header a.microsoft-header__link::before {
+  bottom: 10px;
+  width: calc(100% - 20px);
+  left: 50%;
+  transform: translateX(-50%);
+  content: "";
+  position: absolute;
+  height: 2.5px;
+  background-color: #262626;
+  z-index: 4;
+  display: none;
+}
+.microsoft-header a.microsoft-header__link:hover::before {
+  display: block;
+}
+.microsoft-header a.microsoft-header__link:active, .microsoft-header a.microsoft-header__link:focus {
+  border: 1px dashed #262626;
+}
+.microsoft-header a.microsoft-header__link:active::before, .microsoft-header a.microsoft-header__link:focus::before {
+  display: block;
+}
+@media (max-width: 1199.98px) {
+  .microsoft-header .container {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.microsoft-header svg {
+  font-size: inherit;
+  pointer-events: none;
+}
+.microsoft-header .microsoft-mobile__menu {
+  display: none;
+  z-index: 20;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  font-size: 15px;
+}
+.microsoft-header .microsoft-mobile__menu.open {
+  display: block;
+}
+.microsoft-header .microsoft-mobile__menu a {
+  border: 1px solid transparent;
+  padding: 15px 0px 15px 16px;
+  display: block;
+}
+.microsoft-header .microsoft-mobile__menu a:focus, .microsoft-header .microsoft-mobile__menu a:active {
+  border: 1px dashed #262626;
+}
+.microsoft-header .microsoft-mobile__menu li:not(:last-child) {
+  border-bottom: 1px solid #e6e6e6;
+}
+.microsoft-header .microsoft-mobile__menu ul.microsoft-mobile__list {
+  padding-right: 16px;
+  border-top: 1px solid #e6e6e6;
+  border-left: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+  border-bottom: 1px solid #000;
+}
+.microsoft-header .microsoft-mobile__menu .menu-has__children--link {
+  padding-right: 16px;
+}
+.microsoft-header .microsoft-mobile__menu ul.microsoft-mobile__submenu {
+  display: none;
+  padding-left: 30px;
+  border-top: 1px solid #e6e6e6;
+}
+.microsoft-header .microsoft-mobile__menu ul.microsoft-mobile__submenu.open {
+  display: block;
+}
+.microsoft-header__form {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  display: none;
+  transform: translateY(-50%);
+  width: 80%;
+  margin-right: 80px;
+}
+.microsoft-header__form.open {
+  display: block;
+}
+@media (max-width: 1399.98px) {
+  .microsoft-header__form {
+    margin-right: 40px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .microsoft-header__form {
+    margin-right: 0;
+    width: 80%;
+  }
+}
+@media (max-width: 991.98px) {
+  .microsoft-header__form {
+    padding-right: 1rem;
+    width: 100%;
+  }
+}
+.microsoft-header__form .microsoft-header__form--inputgroup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 991.98px) {
+  .microsoft-header__form .microsoft-header__form--inputgroup {
+    flex-direction: row-reverse;
+  }
+}
+.microsoft-header__form .microsoft-header__form--inputgroup div {
+  flex: 2;
+  position: relative;
+}
+.microsoft-header__form .microsoft-header__form--inputgroup div input {
+  outline: 2px solid transparent;
+  width: 100%;
+  height: 40px;
+  padding: 0 40px 0 10px;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+}
+.microsoft-header__form .microsoft-header__form--inputgroup div input:focus, .microsoft-header__form .microsoft-header__form--inputgroup div input:active {
+  outline-color: #000;
+  border-color: #0067B8;
+}
+@media (max-width: 991.98px) {
+  .microsoft-header__form .microsoft-header__form--inputgroup div input {
+    padding-left: 40px;
+    padding-right: 10px;
+  }
+}
+.microsoft-header__form .microsoft-header__form--inputgroup div button.form-submit {
+  outline: none;
+  border: none;
+  width: auto;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  height: 100%;
+  padding: 0 13px;
+}
+.microsoft-header__form .microsoft-header__form--inputgroup div button.form-submit svg {
+  display: block;
+}
+@media (max-width: 991.98px) {
+  .microsoft-header__form .microsoft-header__form--inputgroup div button.form-submit {
+    left: 0;
+    right: auto;
+  }
+}
+.microsoft-header__form .microsoft-header__form--inputgroup button.form-cancel {
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  padding: 9px 6px;
+  width: 75px;
+  margin-left: 8px;
+}
+@media (min-width: 992px) {
+  .microsoft-header__form .microsoft-header__form--inputgroup button.form-cancel svg {
+    display: none;
+  }
+}
+@media (max-width: 991.98px) {
+  .microsoft-header__form .microsoft-header__form--inputgroup button.form-cancel span {
+    display: none;
+  }
+}
+@media (max-width: 991.98px) {
+  .microsoft-header__form .microsoft-header__form--inputgroup button.form-cancel {
+    border: none;
+    margin: 0px;
+    padding: 8px 1rem;
+    width: auto;
+  }
+}
+.microsoft-header__mobile {
+  display: none;
+  height: 50px;
+}
+.microsoft-header__mobile.search-display {
+  visibility: hidden;
+}
+.microsoft-header__mobile a {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  border: 1px solid transparent;
+}
+.microsoft-header__mobile a:active, .microsoft-header__mobile a:focus {
+  border: 1px dashed #262626;
+}
+@media (max-width: 991.98px) {
+  .microsoft-header__mobile.lg-mb {
+    display: flex;
+    align-items: center;
+  }
+}
+.microsoft-header__logo a {
+  padding: 13.9px 6px 13.9px 16px;
+}
+.microsoft-header__logo a img {
+  max-width: 108px;
+}
+@media (max-width: 991.98px) {
+  .microsoft-header__logo a {
+    padding: 13.9px 0px 13.9px 0px;
+  }
+}
+.microsoft-header__nav {
+  padding-left: 1rem;
+  height: 50px;
+}
+.microsoft-header__nav.search-display {
+  visibility: hidden;
+}
+.microsoft-header__nav li {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.microsoft-header__nav li a {
+  padding: 15.2px 10px 15.2px;
+}
+.microsoft-header__miscellaneous.search-display {
+  visibility: hidden;
+}
+.microsoft-header__miscellaneous li.microsoft-header__item {
+  cursor: pointer;
+}
+.microsoft-header__miscellaneous li.microsoft-header__item.microsoft-search__button a span {
+  pointer-events: none;
+}
+.microsoft-header__miscellaneous li.microsoft-header__item > a {
+  border: 1px solid transparent;
+  padding: 16px 16px 16px;
+  height: 50px;
+}
+.microsoft-header__miscellaneous li.microsoft-header__item > a:focus, .microsoft-header__miscellaneous li.microsoft-header__item > a:active {
+  border: 1px dashed #262626;
+}
+.microsoft-header__miscellaneous li.microsoft-header__item > a:focus span::before, .microsoft-header__miscellaneous li.microsoft-header__item > a:active span::before {
+  display: block;
+}
+@media (max-width: 991.98px) {
+  .microsoft-header__miscellaneous li.microsoft-header__item > a {
+    padding: 16px 12px 16px;
+  }
+}
+.microsoft-header__miscellaneous li.microsoft-header__item > a:hover span::before {
+  display: block;
+}
+.microsoft-header__miscellaneous li.microsoft-header__item:last-child a {
+  padding: 9px 16px;
+}
+@media (max-width: 991.98px) {
+  .microsoft-header__miscellaneous li.microsoft-header__item:last-child a {
+    padding: 9px 0.75rem;
+  }
+}
+.microsoft-header__miscellaneous li.microsoft-header__item:last-child a:hover span::before,
+.microsoft-header__miscellaneous li.microsoft-header__item:last-child a:focus span::before,
+.microsoft-header__miscellaneous li.microsoft-header__item:last-child a:active span::before {
+  display: none;
+}
+.microsoft-header__miscellaneous li.microsoft-header__item span {
+  position: relative;
+  display: inline-block;
+}
+.microsoft-header__miscellaneous li.microsoft-header__item span::before {
+  bottom: -5px;
+  width: calc(100% - 0.4rem);
+  left: 0;
+  content: "";
+  position: absolute;
+  height: 2.5px;
+  background-color: #262626;
+  z-index: 4;
+  display: none;
+}
+@media (max-width: 1199.98px) {
+  .microsoft-header__miscellaneous li.microsoft-header__item span.xl-sr {
+    display: none;
+  }
+}
+.microsoft-header__miscellaneous li.microsoft-header__item span {
+  padding-right: 0.4rem;
+}
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.microsoft-header li.menu-has__children a.focused {
+  position: relative;
+  background-color: #f2f2f2;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid #f2f2f2;
+}
+.microsoft-header li.menu-has__children a.focused::after {
+  content: "";
+  width: 100%;
+  background-color: #f2f2f2;
+  height: 2px;
+  top: 100%;
+  z-index: 300;
+  position: absolute;
+  left: 0;
+  display: block;
+}
+.microsoft-header li.menu-has__children a.focused:focus {
+  border: 1px dashed #262626;
+}
+.microsoft-header li.menu-has__children a.focused:focus::after {
+  display: none;
+}
+.microsoft-header li.menu-has__children a.focused span::before {
+  display: none;
+}
+.microsoft-header .menu-submenu {
+  position: absolute;
+  animation: fade-in 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  right: 0;
+  top: calc(100% - 2px);
+  width: 95%;
+  background-color: #f2f2f2;
+  border-color: rgba(0, 0, 0, 0.05) rgba(0, 0, 0, 0.05) #000;
+  border-style: solid;
+  border-width: 1px 1px 2px;
+  z-index: 200;
+  cursor: default;
+}
+.microsoft-header .menu-submenu.closed {
+  display: none;
+}
+.microsoft-header .menu-submenu.opened {
+  display: block;
+}
+@media (max-width: 1399.98px) {
+  .microsoft-header .menu-submenu {
+    width: 100%;
+  }
+}
+.microsoft-header .menu-submenu__columns {
+  flex-wrap: wrap;
+}
+@media (max-width: 1199.98px) {
+  .microsoft-header .menu-submenu__columns .col-lg-3 {
+    width: 20%;
+  }
+}
+.microsoft-header .menu-submenu__columns ul li.heading {
+  font-weight: 600;
+  padding: 18px 0 18px 24px;
+  cursor: default;
+}
+@media (max-width: 1199.98px) {
+  .microsoft-header .menu-submenu__columns ul li.heading {
+    padding: 18px 0 18px 18px;
+  }
+}
+.microsoft-header .menu-submenu__columns ul li a {
+  padding: 12px 24px 12px 24px;
+  display: block;
+  border: 1px solid transparent;
+}
+@media (max-width: 1199.98px) {
+  .microsoft-header .menu-submenu__columns ul li a {
+    padding: 12px 18px 12px 18px;
+  }
+}
+.microsoft-header .menu-submenu__columns ul li a:active, .microsoft-header .menu-submenu__columns ul li a:focus {
+  border: 1px dashed #262626;
+}
+.microsoft-header .menu-submenu__columns ul li a:hover {
+  text-decoration: underline;
+}
+.microsoft-header .menu-submenu__sitemap {
+  margin-top: 1rem;
+}
+.microsoft-header .menu-submenu__sitemap a {
+  text-transform: uppercase;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  padding: 10.4px 0;
+  background-color: #e6e6e6;
+  border: 1px solid transparent;
+}
+.microsoft-header .menu-submenu__sitemap a:hover span {
+  text-decoration: underline;
+}
+.microsoft-header .menu-submenu__sitemap a:active, .microsoft-header .menu-submenu__sitemap a:focus {
+  border: 1px dashed #262626;
+}
+
+@media (max-width: 1199.98px) {
+  .hero .container, .androidios .container {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.hero .container, .hero .container .hero-link__wrapper,
+.hero .container .androidios-link__wrapper, .androidios .container, .androidios .container .hero-link__wrapper,
+.androidios .container .androidios-link__wrapper {
+  width: 100%;
+  height: 100%;
+  color: #262626;
+}
+.hero .container .hero-content,
+.hero .container .androidios-content, .hero .container .hero-link__wrapper .hero-content,
+.hero .container .hero-link__wrapper .androidios-content,
+.hero .container .androidios-link__wrapper .hero-content,
+.hero .container .androidios-link__wrapper .androidios-content, .androidios .container .hero-content,
+.androidios .container .androidios-content, .androidios .container .hero-link__wrapper .hero-content,
+.androidios .container .hero-link__wrapper .androidios-content,
+.androidios .container .androidios-link__wrapper .hero-content,
+.androidios .container .androidios-link__wrapper .androidios-content {
+  position: absolute;
+  left: 60px;
+  top: 50%;
+  width: 50%;
+  transform: translateY(-50%);
+  max-width: 450px;
+}
+@media (max-width: 1199.98px) {
+  .hero .container .hero-content,
+.hero .container .androidios-content, .hero .container .hero-link__wrapper .hero-content,
+.hero .container .hero-link__wrapper .androidios-content,
+.hero .container .androidios-link__wrapper .hero-content,
+.hero .container .androidios-link__wrapper .androidios-content, .androidios .container .hero-content,
+.androidios .container .androidios-content, .androidios .container .hero-link__wrapper .hero-content,
+.androidios .container .hero-link__wrapper .androidios-content,
+.androidios .container .androidios-link__wrapper .hero-content,
+.androidios .container .androidios-link__wrapper .androidios-content {
+    left: 40px;
+  }
+}
+@media (max-width: 991.98px) {
+  .hero .container .hero-content,
+.hero .container .androidios-content, .hero .container .hero-link__wrapper .hero-content,
+.hero .container .hero-link__wrapper .androidios-content,
+.hero .container .androidios-link__wrapper .hero-content,
+.hero .container .androidios-link__wrapper .androidios-content, .androidios .container .hero-content,
+.androidios .container .androidios-content, .androidios .container .hero-link__wrapper .hero-content,
+.androidios .container .hero-link__wrapper .androidios-content,
+.androidios .container .androidios-link__wrapper .hero-content,
+.androidios .container .androidios-link__wrapper .androidios-content {
+    max-width: 320px;
+  }
+}
+@media (max-width: 767.98px) {
+  .hero .container .hero-content,
+.hero .container .androidios-content, .hero .container .hero-link__wrapper .hero-content,
+.hero .container .hero-link__wrapper .androidios-content,
+.hero .container .androidios-link__wrapper .hero-content,
+.hero .container .androidios-link__wrapper .androidios-content, .androidios .container .hero-content,
+.androidios .container .androidios-content, .androidios .container .hero-link__wrapper .hero-content,
+.androidios .container .hero-link__wrapper .androidios-content,
+.androidios .container .androidios-link__wrapper .hero-content,
+.androidios .container .androidios-link__wrapper .androidios-content {
+    position: static;
+    transform: translateY(0);
+    background-color: #e6e6e6;
+    padding: 12px 16px;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+.hero .container .hero-content h3,
+.hero .container .androidios-content h3, .hero .container .hero-link__wrapper .hero-content h3,
+.hero .container .hero-link__wrapper .androidios-content h3,
+.hero .container .androidios-link__wrapper .hero-content h3,
+.hero .container .androidios-link__wrapper .androidios-content h3, .androidios .container .hero-content h3,
+.androidios .container .androidios-content h3, .androidios .container .hero-link__wrapper .hero-content h3,
+.androidios .container .hero-link__wrapper .androidios-content h3,
+.androidios .container .androidios-link__wrapper .hero-content h3,
+.androidios .container .androidios-link__wrapper .androidios-content h3 {
+  font-size: 34px;
+  font-weight: 600;
+}
+@media (max-width: 1399.98px) {
+  .hero .container .hero-content h3,
+.hero .container .androidios-content h3, .hero .container .hero-link__wrapper .hero-content h3,
+.hero .container .hero-link__wrapper .androidios-content h3,
+.hero .container .androidios-link__wrapper .hero-content h3,
+.hero .container .androidios-link__wrapper .androidios-content h3, .androidios .container .hero-content h3,
+.androidios .container .androidios-content h3, .androidios .container .hero-link__wrapper .hero-content h3,
+.androidios .container .hero-link__wrapper .androidios-content h3,
+.androidios .container .androidios-link__wrapper .hero-content h3,
+.androidios .container .androidios-link__wrapper .androidios-content h3 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 767.98px) {
+  .hero .container .hero-content h3,
+.hero .container .androidios-content h3, .hero .container .hero-link__wrapper .hero-content h3,
+.hero .container .hero-link__wrapper .androidios-content h3,
+.hero .container .androidios-link__wrapper .hero-content h3,
+.hero .container .androidios-link__wrapper .androidios-content h3, .androidios .container .hero-content h3,
+.androidios .container .androidios-content h3, .androidios .container .hero-link__wrapper .hero-content h3,
+.androidios .container .hero-link__wrapper .androidios-content h3,
+.androidios .container .androidios-link__wrapper .hero-content h3,
+.androidios .container .androidios-link__wrapper .androidios-content h3 {
+    font-size: 20px;
+  }
+}
+.hero .container .hero-content p,
+.hero .container .androidios-content p, .hero .container .hero-link__wrapper .hero-content p,
+.hero .container .hero-link__wrapper .androidios-content p,
+.hero .container .androidios-link__wrapper .hero-content p,
+.hero .container .androidios-link__wrapper .androidios-content p, .androidios .container .hero-content p,
+.androidios .container .androidios-content p, .androidios .container .hero-link__wrapper .hero-content p,
+.androidios .container .hero-link__wrapper .androidios-content p,
+.androidios .container .androidios-link__wrapper .hero-content p,
+.androidios .container .androidios-link__wrapper .androidios-content p {
+  margin-top: 12px;
+  margin-bottom: 24px;
+  line-height: 20px;
+}
+@media (max-width: 767.98px) {
+  .hero .container .hero-content p,
+.hero .container .androidios-content p, .hero .container .hero-link__wrapper .hero-content p,
+.hero .container .hero-link__wrapper .androidios-content p,
+.hero .container .androidios-link__wrapper .hero-content p,
+.hero .container .androidios-link__wrapper .androidios-content p, .androidios .container .hero-content p,
+.androidios .container .androidios-content p, .androidios .container .hero-link__wrapper .hero-content p,
+.androidios .container .hero-link__wrapper .androidios-content p,
+.androidios .container .androidios-link__wrapper .hero-content p,
+.androidios .container .androidios-link__wrapper .androidios-content p {
+    margin-bottom: 12px;
+    margin-top: 6px;
+  }
+}
+@media (max-width: 991.98px) {
+  .hero .container .hero-content .hero-content__buttongroup,
+.hero .container .androidios-content .hero-content__buttongroup, .hero .container .hero-link__wrapper .hero-content .hero-content__buttongroup,
+.hero .container .hero-link__wrapper .androidios-content .hero-content__buttongroup,
+.hero .container .androidios-link__wrapper .hero-content .hero-content__buttongroup,
+.hero .container .androidios-link__wrapper .androidios-content .hero-content__buttongroup, .androidios .container .hero-content .hero-content__buttongroup,
+.androidios .container .androidios-content .hero-content__buttongroup, .androidios .container .hero-link__wrapper .hero-content .hero-content__buttongroup,
+.androidios .container .hero-link__wrapper .androidios-content .hero-content__buttongroup,
+.androidios .container .androidios-link__wrapper .hero-content .hero-content__buttongroup,
+.androidios .container .androidios-link__wrapper .androidios-content .hero-content__buttongroup {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+}
+@media (max-width: 767.98px) {
+  .hero .container .hero-content .hero-content__buttongroup,
+.hero .container .androidios-content .hero-content__buttongroup, .hero .container .hero-link__wrapper .hero-content .hero-content__buttongroup,
+.hero .container .hero-link__wrapper .androidios-content .hero-content__buttongroup,
+.hero .container .androidios-link__wrapper .hero-content .hero-content__buttongroup,
+.hero .container .androidios-link__wrapper .androidios-content .hero-content__buttongroup, .androidios .container .hero-content .hero-content__buttongroup,
+.androidios .container .androidios-content .hero-content__buttongroup, .androidios .container .hero-link__wrapper .hero-content .hero-content__buttongroup,
+.androidios .container .hero-link__wrapper .androidios-content .hero-content__buttongroup,
+.androidios .container .androidios-link__wrapper .hero-content .hero-content__buttongroup,
+.androidios .container .androidios-link__wrapper .androidios-content .hero-content__buttongroup {
+    flex-direction: row;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .hero .container .hero-content .hero-content__buttongroup,
+.hero .container .androidios-content .hero-content__buttongroup, .hero .container .hero-link__wrapper .hero-content .hero-content__buttongroup,
+.hero .container .hero-link__wrapper .androidios-content .hero-content__buttongroup,
+.hero .container .androidios-link__wrapper .hero-content .hero-content__buttongroup,
+.hero .container .androidios-link__wrapper .androidios-content .hero-content__buttongroup, .androidios .container .hero-content .hero-content__buttongroup,
+.androidios .container .androidios-content .hero-content__buttongroup, .androidios .container .hero-link__wrapper .hero-content .hero-content__buttongroup,
+.androidios .container .hero-link__wrapper .androidios-content .hero-content__buttongroup,
+.androidios .container .androidios-link__wrapper .hero-content .hero-content__buttongroup,
+.androidios .container .androidios-link__wrapper .androidios-content .hero-content__buttongroup {
+    flex-direction: column;
+  }
+}
+.hero .container .hero-content .hero-content__buttongroup .btn-primary,
+.hero .container .androidios-content .hero-content__buttongroup .btn-primary, .hero .container .hero-link__wrapper .hero-content .hero-content__buttongroup .btn-primary,
+.hero .container .hero-link__wrapper .androidios-content .hero-content__buttongroup .btn-primary,
+.hero .container .androidios-link__wrapper .hero-content .hero-content__buttongroup .btn-primary,
+.hero .container .androidios-link__wrapper .androidios-content .hero-content__buttongroup .btn-primary, .androidios .container .hero-content .hero-content__buttongroup .btn-primary,
+.androidios .container .androidios-content .hero-content__buttongroup .btn-primary, .androidios .container .hero-link__wrapper .hero-content .hero-content__buttongroup .btn-primary,
+.androidios .container .hero-link__wrapper .androidios-content .hero-content__buttongroup .btn-primary,
+.androidios .container .androidios-link__wrapper .hero-content .hero-content__buttongroup .btn-primary,
+.androidios .container .androidios-link__wrapper .androidios-content .hero-content__buttongroup .btn-primary {
+  margin-right: 24px;
+}
+@media (max-width: 767.98px) {
+  .hero .container .hero-content .hero-content__buttongroup .btn-primary,
+.hero .container .androidios-content .hero-content__buttongroup .btn-primary, .hero .container .hero-link__wrapper .hero-content .hero-content__buttongroup .btn-primary,
+.hero .container .hero-link__wrapper .androidios-content .hero-content__buttongroup .btn-primary,
+.hero .container .androidios-link__wrapper .hero-content .hero-content__buttongroup .btn-primary,
+.hero .container .androidios-link__wrapper .androidios-content .hero-content__buttongroup .btn-primary, .androidios .container .hero-content .hero-content__buttongroup .btn-primary,
+.androidios .container .androidios-content .hero-content__buttongroup .btn-primary, .androidios .container .hero-link__wrapper .hero-content .hero-content__buttongroup .btn-primary,
+.androidios .container .hero-link__wrapper .androidios-content .hero-content__buttongroup .btn-primary,
+.androidios .container .androidios-link__wrapper .hero-content .hero-content__buttongroup .btn-primary,
+.androidios .container .androidios-link__wrapper .androidios-content .hero-content__buttongroup .btn-primary {
+    margin-right: 0.5rem;
+  }
+}
+.hero .container .hero-bg, .hero .container .androidios-bg, .androidios .container .hero-bg, .androidios .container .androidios-bg {
+  background-image: url(../images/microsoft-hero.jpg);
+  background-color: #f2f2f2;
+  width: 100%;
+  background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat;
+  height: 510px;
+}
+@media (max-width: 1199.98px) {
+  .hero .container .hero-bg, .hero .container .androidios-bg, .androidios .container .hero-bg, .androidios .container .androidios-bg {
+    height: 460px;
+  }
+}
+@media (max-width: 767.98px) {
+  .hero .container .hero-bg, .hero .container .androidios-bg, .androidios .container .hero-bg, .androidios .container .androidios-bg {
+    height: 300px;
+    border-top: 1px solid #e6e6e6;
+  }
+}
+@media (max-width: 767.98px) {
+  .hero .container .hero-bg, .hero .container .androidios-bg, .androidios .container .hero-bg, .androidios .container .androidios-bg {
+    background-position: right top;
+    background-size: 1000px;
+  }
+}
+@media (max-width: 1399.98px) {
+  .hero .container .hero-bg, .androidios .container .hero-bg {
+    background-size: 1100px;
+  }
+}
+@media (max-width: 991.98px) {
+  .hero .container .hero-bg, .androidios .container .hero-bg {
+    background-size: 900px;
+  }
+}
+@media (max-width: 767.98px) {
+  .hero .container .hero-bg, .androidios .container .hero-bg {
+    background-image: url("../images/microsoft-hero-mobile.jpg");
+    background-position: right center;
+    background-size: 100%;
+  }
+}
+
+.microsoft-section {
+  margin-top: 48px;
+}
+@media (max-width: 575.98px) {
+  .microsoft-section {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .microsoft-apps .container, .microsoft-business .container {
+    max-width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+.microsoft-apps .container .microsoft-apps__container, .microsoft-apps .container .microsoft-business__container, .microsoft-business .container .microsoft-apps__container, .microsoft-business .container .microsoft-business__container {
+  flex-wrap: wrap;
+}
+@media (max-width: 1199.98px) {
+  .microsoft-apps .container .microsoft-apps__container, .microsoft-apps .container .microsoft-business__container, .microsoft-business .container .microsoft-apps__container, .microsoft-business .container .microsoft-business__container {
+    row-gap: 48px;
+  }
+}
+@media (max-width: 575.98px) {
+  .microsoft-apps .container .microsoft-apps__container, .microsoft-apps .container .microsoft-business__container, .microsoft-business .container .microsoft-apps__container, .microsoft-business .container .microsoft-business__container {
+    row-gap: 40px;
+  }
+}
+.microsoft-apps .container .microsoft-apps__container .microsoft-app__item .microsoft-app__link, .microsoft-apps .container .microsoft-apps__container .microsoft-app__item .microsoft-business__link, .microsoft-apps .container .microsoft-apps__container .microsoft-business__item .microsoft-app__link, .microsoft-apps .container .microsoft-apps__container .microsoft-business__item .microsoft-business__link, .microsoft-apps .container .microsoft-business__container .microsoft-app__item .microsoft-app__link, .microsoft-apps .container .microsoft-business__container .microsoft-app__item .microsoft-business__link, .microsoft-apps .container .microsoft-business__container .microsoft-business__item .microsoft-app__link, .microsoft-apps .container .microsoft-business__container .microsoft-business__item .microsoft-business__link, .microsoft-business .container .microsoft-apps__container .microsoft-app__item .microsoft-app__link, .microsoft-business .container .microsoft-apps__container .microsoft-app__item .microsoft-business__link, .microsoft-business .container .microsoft-apps__container .microsoft-business__item .microsoft-app__link, .microsoft-business .container .microsoft-apps__container .microsoft-business__item .microsoft-business__link, .microsoft-business .container .microsoft-business__container .microsoft-app__item .microsoft-app__link, .microsoft-business .container .microsoft-business__container .microsoft-app__item .microsoft-business__link, .microsoft-business .container .microsoft-business__container .microsoft-business__item .microsoft-app__link, .microsoft-business .container .microsoft-business__container .microsoft-business__item .microsoft-business__link {
+  color: #262626;
+}
+.microsoft-apps .container .microsoft-apps__container .microsoft-app__item .microsoft-app__link:hover .microsoft-app__image img, .microsoft-apps .container .microsoft-apps__container .microsoft-app__item .microsoft-app__link:hover .microsoft-business__image img, .microsoft-apps .container .microsoft-apps__container .microsoft-app__item .microsoft-business__link:hover .microsoft-app__image img, .microsoft-apps .container .microsoft-apps__container .microsoft-app__item .microsoft-business__link:hover .microsoft-business__image img, .microsoft-apps .container .microsoft-apps__container .microsoft-business__item .microsoft-app__link:hover .microsoft-app__image img, .microsoft-apps .container .microsoft-apps__container .microsoft-business__item .microsoft-app__link:hover .microsoft-business__image img, .microsoft-apps .container .microsoft-apps__container .microsoft-business__item .microsoft-business__link:hover .microsoft-app__image img, .microsoft-apps .container .microsoft-apps__container .microsoft-business__item .microsoft-business__link:hover .microsoft-business__image img, .microsoft-apps .container .microsoft-business__container .microsoft-app__item .microsoft-app__link:hover .microsoft-app__image img, .microsoft-apps .container .microsoft-business__container .microsoft-app__item .microsoft-app__link:hover .microsoft-business__image img, .microsoft-apps .container .microsoft-business__container .microsoft-app__item .microsoft-business__link:hover .microsoft-app__image img, .microsoft-apps .container .microsoft-business__container .microsoft-app__item .microsoft-business__link:hover .microsoft-business__image img, .microsoft-apps .container .microsoft-business__container .microsoft-business__item .microsoft-app__link:hover .microsoft-app__image img, .microsoft-apps .container .microsoft-business__container .microsoft-business__item .microsoft-app__link:hover .microsoft-business__image img, .microsoft-apps .container .microsoft-business__container .microsoft-business__item .microsoft-business__link:hover .microsoft-app__image img, .microsoft-apps .container .microsoft-business__container .microsoft-business__item .microsoft-business__link:hover .microsoft-business__image img, .microsoft-business .container .microsoft-apps__container .microsoft-app__item .microsoft-app__link:hover .microsoft-app__image img, .microsoft-business .container .microsoft-apps__container .microsoft-app__item .microsoft-app__link:hover .microsoft-business__image img, .microsoft-business .container .microsoft-apps__container .microsoft-app__item .microsoft-business__link:hover .microsoft-app__image img, .microsoft-business .container .microsoft-apps__container .microsoft-app__item .microsoft-business__link:hover .microsoft-business__image img, .microsoft-business .container .microsoft-apps__container .microsoft-business__item .microsoft-app__link:hover .microsoft-app__image img, .microsoft-business .container .microsoft-apps__container .microsoft-business__item .microsoft-app__link:hover .microsoft-business__image img, .microsoft-business .container .microsoft-apps__container .microsoft-business__item .microsoft-business__link:hover .microsoft-app__image img, .microsoft-business .container .microsoft-apps__container .microsoft-business__item .microsoft-business__link:hover .microsoft-business__image img, .microsoft-business .container .microsoft-business__container .microsoft-app__item .microsoft-app__link:hover .microsoft-app__image img, .microsoft-business .container .microsoft-business__container .microsoft-app__item .microsoft-app__link:hover .microsoft-business__image img, .microsoft-business .container .microsoft-business__container .microsoft-app__item .microsoft-business__link:hover .microsoft-app__image img, .microsoft-business .container .microsoft-business__container .microsoft-app__item .microsoft-business__link:hover .microsoft-business__image img, .microsoft-business .container .microsoft-business__container .microsoft-business__item .microsoft-app__link:hover .microsoft-app__image img, .microsoft-business .container .microsoft-business__container .microsoft-business__item .microsoft-app__link:hover .microsoft-business__image img, .microsoft-business .container .microsoft-business__container .microsoft-business__item .microsoft-business__link:hover .microsoft-app__image img, .microsoft-business .container .microsoft-business__container .microsoft-business__item .microsoft-business__link:hover .microsoft-business__image img {
+  opacity: 0.9;
+}
+.microsoft-apps .container .microsoft-apps__container .microsoft-app__item .microsoft-app__link .microsoft-app__image img, .microsoft-apps .container .microsoft-apps__container .microsoft-app__item .microsoft-app__link .microsoft-business__image img, .microsoft-apps .container .microsoft-apps__container .microsoft-app__item .microsoft-business__link .microsoft-app__image img, .microsoft-apps .container .microsoft-apps__container .microsoft-app__item .microsoft-business__link .microsoft-business__image img, .microsoft-apps .container .microsoft-apps__container .microsoft-business__item .microsoft-app__link .microsoft-app__image img, .microsoft-apps .container .microsoft-apps__container .microsoft-business__item .microsoft-app__link .microsoft-business__image img, .microsoft-apps .container .microsoft-apps__container .microsoft-business__item .microsoft-business__link .microsoft-app__image img, .microsoft-apps .container .microsoft-apps__container .microsoft-business__item .microsoft-business__link .microsoft-business__image img, .microsoft-apps .container .microsoft-business__container .microsoft-app__item .microsoft-app__link .microsoft-app__image img, .microsoft-apps .container .microsoft-business__container .microsoft-app__item .microsoft-app__link .microsoft-business__image img, .microsoft-apps .container .microsoft-business__container .microsoft-app__item .microsoft-business__link .microsoft-app__image img, .microsoft-apps .container .microsoft-business__container .microsoft-app__item .microsoft-business__link .microsoft-business__image img, .microsoft-apps .container .microsoft-business__container .microsoft-business__item .microsoft-app__link .microsoft-app__image img, .microsoft-apps .container .microsoft-business__container .microsoft-business__item .microsoft-app__link .microsoft-business__image img, .microsoft-apps .container .microsoft-business__container .microsoft-business__item .microsoft-business__link .microsoft-app__image img, .microsoft-apps .container .microsoft-business__container .microsoft-business__item .microsoft-business__link .microsoft-business__image img, .microsoft-business .container .microsoft-apps__container .microsoft-app__item .microsoft-app__link .microsoft-app__image img, .microsoft-business .container .microsoft-apps__container .microsoft-app__item .microsoft-app__link .microsoft-business__image img, .microsoft-business .container .microsoft-apps__container .microsoft-app__item .microsoft-business__link .microsoft-app__image img, .microsoft-business .container .microsoft-apps__container .microsoft-app__item .microsoft-business__link .microsoft-business__image img, .microsoft-business .container .microsoft-apps__container .microsoft-business__item .microsoft-app__link .microsoft-app__image img, .microsoft-business .container .microsoft-apps__container .microsoft-business__item .microsoft-app__link .microsoft-business__image img, .microsoft-business .container .microsoft-apps__container .microsoft-business__item .microsoft-business__link .microsoft-app__image img, .microsoft-business .container .microsoft-apps__container .microsoft-business__item .microsoft-business__link .microsoft-business__image img, .microsoft-business .container .microsoft-business__container .microsoft-app__item .microsoft-app__link .microsoft-app__image img, .microsoft-business .container .microsoft-business__container .microsoft-app__item .microsoft-app__link .microsoft-business__image img, .microsoft-business .container .microsoft-business__container .microsoft-app__item .microsoft-business__link .microsoft-app__image img, .microsoft-business .container .microsoft-business__container .microsoft-app__item .microsoft-business__link .microsoft-business__image img, .microsoft-business .container .microsoft-business__container .microsoft-business__item .microsoft-app__link .microsoft-app__image img, .microsoft-business .container .microsoft-business__container .microsoft-business__item .microsoft-app__link .microsoft-business__image img, .microsoft-business .container .microsoft-business__container .microsoft-business__item .microsoft-business__link .microsoft-app__image img, .microsoft-business .container .microsoft-business__container .microsoft-business__item .microsoft-business__link .microsoft-business__image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.microsoft-apps .container .microsoft-apps__container .microsoft-app__item.has-tag span.microsoft-app__tag, .microsoft-apps .container .microsoft-apps__container .microsoft-business__item.has-tag span.microsoft-app__tag, .microsoft-apps .container .microsoft-business__container .microsoft-app__item.has-tag span.microsoft-app__tag, .microsoft-apps .container .microsoft-business__container .microsoft-business__item.has-tag span.microsoft-app__tag, .microsoft-business .container .microsoft-apps__container .microsoft-app__item.has-tag span.microsoft-app__tag, .microsoft-business .container .microsoft-apps__container .microsoft-business__item.has-tag span.microsoft-app__tag, .microsoft-business .container .microsoft-business__container .microsoft-app__item.has-tag span.microsoft-app__tag, .microsoft-business .container .microsoft-business__container .microsoft-business__item.has-tag span.microsoft-app__tag {
+  padding: 3px 14px 5px;
+  margin: 12px 0 4px;
+  color: #000;
+  background-color: #ffd800;
+  display: inline-block;
+  font-size: 13px;
+}
+.microsoft-apps .container .microsoft-apps__container .microsoft-app__item.has-tag h3, .microsoft-apps .container .microsoft-apps__container .microsoft-business__item.has-tag h3, .microsoft-apps .container .microsoft-business__container .microsoft-app__item.has-tag h3, .microsoft-apps .container .microsoft-business__container .microsoft-business__item.has-tag h3, .microsoft-business .container .microsoft-apps__container .microsoft-app__item.has-tag h3, .microsoft-business .container .microsoft-apps__container .microsoft-business__item.has-tag h3, .microsoft-business .container .microsoft-business__container .microsoft-app__item.has-tag h3, .microsoft-business .container .microsoft-business__container .microsoft-business__item.has-tag h3 {
+  margin-top: 0;
+}
+.microsoft-apps .container .microsoft-apps__container .microsoft-app__item h3, .microsoft-apps .container .microsoft-apps__container .microsoft-business__item h3, .microsoft-apps .container .microsoft-business__container .microsoft-app__item h3, .microsoft-apps .container .microsoft-business__container .microsoft-business__item h3, .microsoft-business .container .microsoft-apps__container .microsoft-app__item h3, .microsoft-business .container .microsoft-apps__container .microsoft-business__item h3, .microsoft-business .container .microsoft-business__container .microsoft-app__item h3, .microsoft-business .container .microsoft-business__container .microsoft-business__item h3 {
+  margin-top: 41.6px;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 0.25rem;
+}
+@media (max-width: 1199.98px) {
+  .microsoft-apps .container .microsoft-apps__container .microsoft-app__item h3, .microsoft-apps .container .microsoft-apps__container .microsoft-business__item h3, .microsoft-apps .container .microsoft-business__container .microsoft-app__item h3, .microsoft-apps .container .microsoft-business__container .microsoft-business__item h3, .microsoft-business .container .microsoft-apps__container .microsoft-app__item h3, .microsoft-business .container .microsoft-apps__container .microsoft-business__item h3, .microsoft-business .container .microsoft-business__container .microsoft-app__item h3, .microsoft-business .container .microsoft-business__container .microsoft-business__item h3 {
+    margin-top: 16px;
+  }
+}
+@media (max-width: 575.98px) {
+  .microsoft-apps .container .microsoft-apps__container .microsoft-app__item h3, .microsoft-apps .container .microsoft-apps__container .microsoft-business__item h3, .microsoft-apps .container .microsoft-business__container .microsoft-app__item h3, .microsoft-apps .container .microsoft-business__container .microsoft-business__item h3, .microsoft-business .container .microsoft-apps__container .microsoft-app__item h3, .microsoft-business .container .microsoft-apps__container .microsoft-business__item h3, .microsoft-business .container .microsoft-business__container .microsoft-app__item h3, .microsoft-business .container .microsoft-business__container .microsoft-business__item h3 {
+    font-size: 18px;
+  }
+}
+
+#androidios .androidios-bg {
+  background-image: url("../images/microsoft-androidios.jpg");
+  background-position: right bottom;
+  background-color: #e6e6e6;
+}
+@media (max-width: 1399.98px) {
+  #androidios .androidios-bg {
+    background-size: 1100px;
+  }
+}
+@media (max-width: 991.98px) {
+  #androidios .androidios-bg {
+    background-size: 950px;
+    background-position: 50% bottom;
+  }
+}
+@media (max-width: 767.98px) {
+  #androidios .androidios-bg {
+    background-image: url("../images/microsoft-mobile.jpg");
+    background-position: center bottom;
+    background-size: 320px;
+  }
+}
+
+.microsoft-business .microsoft-business__main--title {
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 1.4rem;
+}
+
+@media (max-width: 1199.98px) {
+  .microsoft-social .container {
+    max-width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+.microsoft-social .microsoft-social__text {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.6);
+  padding-right: 12px;
+}
+.microsoft-social .microsoft-social__media {
+  column-gap: 12px;
+}
+.microsoft-social .microsoft-social__media li {
+  overflow: hidden;
+}
+.microsoft-social .microsoft-social__media li a {
+  border: 2px solid transparent;
+  outline: none;
+  transition: scale 0.2s ease-in-out;
+  position: relative;
+  height: 32px;
+  width: 32px;
+}
+.microsoft-social .microsoft-social__media li a::after {
+  content: "";
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid transparent;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.microsoft-social .microsoft-social__media li a:hover::after {
+  display: block;
+}
+.microsoft-social .microsoft-social__media li a:active {
+  transform: scale(0.98);
+}
+.microsoft-social .microsoft-social__media li a:active, .microsoft-social .microsoft-social__media li a:focus {
+  border: 2px solid #000;
+}
+.microsoft-social .microsoft-social__media li a:active::after, .microsoft-social .microsoft-social__media li a:focus::after {
+  display: block;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.microsoft-footer {
+  background-color: #f2f2f2;
+  padding-top: 36px;
+  color: #616161;
+}
+.microsoft-footer .microsoft-footer__item {
+  padding: 6px 0;
+}
+.microsoft-footer .microsoft-footer__heading {
+  font-size: 15px;
+  font-weight: 600;
+  padding-top: 0;
+  padding-bottom: 4px;
+}
+.microsoft-footer .microsoft-footer__bottom {
+  padding: 30px 0 16px 0;
+}
+.microsoft-footer .microsoft-footer__bottom svg {
+  margin-right: 10px;
+}
+@media (max-width: 767.98px) {
+  .microsoft-footer .microsoft-footer__bottom {
+    flex-direction: column;
+    align-items: flex-start !important;
+    row-gap: 12px;
+  }
+}
+.microsoft-footer .microsoft-footer__bottom--links {
+  column-gap: 24px;
+}
+@media (max-width: 767.98px) {
+  .microsoft-footer .microsoft-footer__bottom--links {
+    column-gap: 16px;
+    flex-wrap: wrap;
+    justify-content: flex-start !important;
+  }
+}
+.microsoft-footer .microsoft-footer__bottom--links span {
+  font-size: 11px;
+}
+.microsoft-footer a {
+  color: #616161;
+  font-size: 11px;
+  display: inline-block;
+  padding: 2px 0;
+  border: 1px solid transparent;
+}
+.microsoft-footer a:hover, .microsoft-footer a:active, .microsoft-footer a:focus {
+  text-decoration: underline;
+}
+.microsoft-footer a:active, .microsoft-footer a:focus {
+  border: 1px dashed #616161;
+}
+@media (max-width: 1199.98px) {
+  .microsoft-footer .container {
+    max-width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+@media (max-width: 991.98px) {
+  .microsoft-footer .container .microsoft-footer__container {
+    row-gap: 36px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+body {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: normal;
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  color: #262626;
+}
+
+button {
+  cursor: pointer;
+  background: transparent;
+  font-weight: 400;
+}
+
+p {
+  line-height: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
